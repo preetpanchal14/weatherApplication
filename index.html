@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Weather App
+        </title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+        <style>
+            body{
+                background-image: radial-gradient(white,pink);
+                background-repeat: no-repeat;
+                display:flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            form{
+                display:flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding:145px;
+
+            }
+            label{
+                padding:10px;
+                font-family: 'Dela Gothic One', cursive;
+                color:crimson;
+                font-size: 43px;
+                width:auto;
+                justify-content: center;
+                align-items: center;
+            }
+            input{
+                border:3px solid black;
+                border-radius:20px;
+                width:750px;
+                height:40px;
+                margin-top:40px;
+
+            }
+            button{
+                padding:20px;
+                margin-top: 60px;
+                background-color: crimson;
+                width: 250px;
+                border-radius: 50px;
+            }
+           
+            button a{
+                font-family: 'Dela Gothic One', cursive;
+                font-size:30px;
+                text-decoration: none;
+                color:white;
+            }
+          
+        </style>
+    </head>
+    <body>
+        <form action="/" method="post">
+            <label for  ="cityInput">Welcome to MyWeather Web Application</label>
+        <input id = "cityInput" type="text" placeholder="Enter City" name="cityName">
+        <button type = "submit"><a href="#">Go</a></button>
+        </form>
+        
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
